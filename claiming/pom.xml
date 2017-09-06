@@ -1,0 +1,14 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>pl.arek</groupId>
+  <artifactId>claiming</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>claiming</name>
+  <description>Aplikacja do wsparcia raportowania czasu pracy</description>
+  <modules>
+  	<module>claim-domain</module>
+  	<module>claim-appl</module>
+  	<module>claim-app</module>
+  </modules>
+</project>
